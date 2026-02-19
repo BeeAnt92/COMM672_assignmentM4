@@ -30,7 +30,7 @@ a {
 section p {
     border: 1px solid #222e50;
     border-radius: 20px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     padding: 20px;
     text-align: center;
     width: 33%;
@@ -48,6 +48,10 @@ tr td:first-child {
     background: #f2f2f2;
 }
 
+tr td:first-child img {
+    width: fit-content
+}
+
 table td:only-child {
     background: none;
 }
@@ -55,37 +59,37 @@ table td:only-child {
 .feature-container {
     background-color: #efefef;
     border-radius: 20px;    
-    margin: 20px 40px;
+    margin: 20px 37px;
     padding: 2px 290px;
 }
 
 .feature-container p:first-child {
-    font-weight: bold ;
-    text-align:center ;
+    font-weight: bold;
+    text-align:center;
 }
 
-.feature-container p:nth-child(2) {
+.feature-container p:nth-child(2) img {
+    border-radius: 20px;
     width: 300px;
 }
 
 .feature-container p:nth-child(3) {
-    margin: 30px -280px 10px -270px;
-    padding-top: 30px 10px;
+    margin: 20px -280px 10px -270px;
 }
 
 .feature-container ul {
     list-style-position: outside;
-    margin: 10px -200px 30px -255px;
-    padding-top: 30px 10px;
+    margin: 10px -229px 10px -250px;
+    padding-top: 30px;
 }
 
 .feature-container p:last-child {
     font-weight: lighter;
     margin: 30px -260px 30px -195px;
-    padding-top: 30px 10px;
+    padding-top: 5px;
     text-align: right;
 }
-
+/* Community Page */
 .community {
     padding-right: 320px;
 }
@@ -114,9 +118,9 @@ table td:only-child {
 .community div {
     border: 1px solid #222e50;
     border-radius: 20px;
-    box-sizing: content-box;
-    margin: 20px 0px;
-    padding: 10px 1px;
+    box-sizing: border-box;
+    margin: 20px 15px;
+    padding: 10px 5px;
     text-align: center;
     width: 55%;
 }
