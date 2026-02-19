@@ -1,0 +1,126 @@
+body {
+    font: 1em/2em Arial, Helvetica, sans-serif;
+    width: 960px;
+    max-width: 100%;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+nav li {
+    color: #222e50;
+    list-style-type: none;
+    margin-left: -39px;
+}
+
+h2 {
+    color:#b3679b;
+    background-color: #efefef;
+    border: 1px solid #222e50;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+a {
+    color: #b3679b;
+}
+
+section p {
+    text-align: center;
+    width: 33%;
+    padding: 20px;
+    box-sizing: content-box;
+    border: 1px solid #222e50;
+    border-radius: 20px;
+}
+
+.title {
+    font-weight: bold;
+}
+/* Our Team Table */
+td {
+    padding: 20px;
+}
+
+tr td:first-child {
+    background: #f2f2f2;
+}
+
+table td:only-child {
+    background: none;
+}
+/* Features Page */
+.feature-container {
+    background-color: #efefef;
+    border-radius: 20px;    
+    margin: 20px 40px;
+    padding: 2px 290px;
+}
+
+.feature-container p:first-child {
+    font-weight: bold ;
+    text-align:center ;
+}
+
+.feature-container p:nth-child(2) {
+    width: 300px;
+}
+
+.feature-container p:nth-child(3) {
+    padding-top: 30px 10px;
+    margin: 30px -280px 10px -270px;
+}
+
+.feature-container ul {
+    padding-top: 30px 10px;
+    margin: 10px -200px 30px -255px;
+    list-style-position: outside;
+}
+
+.feature-container p:last-child {
+    font-weight: lighter;
+    text-align: right;
+    padding-top: 30px 10px;
+    margin: 30px -260px 30px -195px;
+}
+
+/* The Community page will need a bit of modification. You’ll need to take advantage of the <section> element and “community” class that I’ve added for you here in order to attach styles to this element. The colors for the dividers are #7CA982, #E6A563, and #B36793. Additionally, you’ll need to wrap each community/event within a <div> element so you end up with 3 div elements…one for each event.  */
+
+.community div:first-child img {
+    border-bottom: 10px solid #7ca982;
+    padding-bottom: 40px;
+}
+.community div:nth-child(2) img {
+    border-bottom: 10px solid #e6a563;
+    padding-bottom: 40px;
+}
+.community div:nth-child(3) img {
+    border-bottom: 10px solid #b36793;
+    padding-bottom: 40px;
+}
+
+.community div {
+    text-align: center;
+    width: 50%;
+    padding: 13px;
+    margin: 20px 0px;
+    box-sizing: content-box;
+    border: 1px solid #222e50;
+    border-radius: 20px;
+}
+
+.community p {
+    text-align: center;
+    border: none;
+    padding-top: 30px 10px;
+    margin: 30px -280px 10px 140px;
+}
+
+.community p span:nth-child(2) {
+    margin: 30px -280px 10px 100px;
+}
+.community p span:first-child {
+    font-weight: bold;
+}
