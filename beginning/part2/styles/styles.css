@@ -1,0 +1,10 @@
+body {
+    font: 1em 2em Arial, Helvetica, sans-serif;
+    width: 960px;
+    max-width: 100%;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+}
