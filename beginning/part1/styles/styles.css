@@ -2,12 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 2em;
-    background-color: #EDEDED;
+    background-color: #ededed;
 }
 
 h1,h2 {
-    color: blue;
-    border-bottom: 1px solid #929CA4;
+    color: #0000ff;
+    border-bottom: 1px solid #929ca4;
 }
 
 body p:first-of-type::first-letter {
@@ -15,7 +15,7 @@ body p:first-of-type::first-letter {
 }
 
 .features::first-line {
-    color: #CC1C0D;
+    color: #cc1c0d;
     font-weight: bold;
 }
 
@@ -25,14 +25,14 @@ body p:first-of-type::first-letter {
 }
 
 a:link {
-    text-decoration-color: burlywood;
+    text-decoration-color: #deb887;
     text-decoration-thickness: 20%;
-    color: yellowgreen
+    color: #9acd32;
 }
 a:hover {
-    text-decoration-color: yellowgreen;
+    text-decoration-color: #9acd32;
     text-decoration-thickness: 20%;
-    color: burlywood
+    color: #deb887;
 }
 
 ul li {
@@ -40,9 +40,9 @@ ul li {
 }
 
 ul li:first-child {
-    color: blue
+    color: #0000ff;
 }
 
 ul li:last-child {
-    color: red
+    color: #ff0000;
 }
