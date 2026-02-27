@@ -9,31 +9,38 @@ img {
     width: 100%;
 }
 
-nav li {
+nav ul {
     color: #222e50;
     list-style-type: none;
-    margin-left: -39px;
+    padding: 0;
+}
+
+nav ul ul {
+    padding-left: 40px;
+}
+
+.active {
+    color: #222e50;
+}
+
+a, h2 {
+    color: #b3679b;
 }
 
 h2 {  
     background-color: #efefef;
+    font-size: 1em;
     border: 1px solid #222e50;
     border-radius: 5px;
-    color:#b3679b;
     padding-left: 10px;
 }
 
-a {
-    color: #b3679b;
-}
-
-section p {
-    border: 1px solid #222e50;
-    border-radius: 20px;
-    box-sizing: border-box;
-    padding: 20px;
-    text-align: center;
+section:nth-last-of-type(2) p {
     width: 33%;
+    border: 1px solid #222e50;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;    
 }
 
 .title {
@@ -58,12 +65,30 @@ table td:only-child {
 /* Features Page */
 .feature-container {
     background-color: #efefef;
+    text-align: center;
     border-radius: 20px;    
-    margin: 20px 37px;
-    padding: 2px 290px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.feature-container img {
+    width: 300px;
+    border-radius: 20px;
 }
 
 .feature-container p:first-child {
+    font-size: 20px;
+}
+
+.feature-container p:nth-child(3), .feature-container ul {
+    text-align: left;
+}
+
+.feature-container p:last-child {
+    text-align: right;
+}
+
+/* .feature-container p:first-child {
     font-weight: bold;
     text-align:center;
 }
@@ -88,9 +113,41 @@ table td:only-child {
     margin: 30px -260px 30px -195px;
     padding-top: 5px;
     text-align: right;
-}
+} */
 /* Community Page */
-.community {
+.community div {
+    width: 300px;
+    border: 1px solid #222e50;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.community div h3 {
+    padding-top: 20px;
+}
+
+.community div:first-child h3 {
+    border-top: 10px solid #7ca982;
+}
+.community div:nth-child(2) h3 {
+    border-top: 10px solid #e6a563;
+}
+.community div:first-child h3 {
+    border-top: 10px solid #b36793;
+}
+
+.community div p span:first-of-type {
+    font-weight: bold;
+}
+
+.community div p span:last-of-type {
+    font-style: italic;
+}
+
+
+/* .community {
     padding-right: 320px;
 }
 
@@ -139,4 +196,4 @@ table td:only-child {
 
 .community div span:nth-child(3) {
     font-style: italic;
-}
+} */
